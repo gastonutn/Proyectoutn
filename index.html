@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>UTN autos</title>
 </head>
 <body>
-    <h1>aprendiendo git</h1>
+    <header class="encabezado">
+        <h1>UTN autos</h1>
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Anuncios</a></li>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Publica Gratis</a></li>
+                <li><a href="#">Iniciar sesion</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Seleccion de auto</h2>
+    <form action="">
+        <select id="Marca">
+            <option value="none">Seleccione la marca</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Renault">Renault</option>
+            <option value="Ford">Ford</option>
+            <option value="Audi">Audi</option>
+       </select>
+
+       <select id="Modelo">
+        <option value="none">seleccione el modelo</option>
+        <option value="corsa">Corsa</option>
+        <option value="Megane">Megane</option>
+        <option value="Focus">Focus</option>
+        <option value="A3">A3</option>
+        <option value="A5">A5</option>
+        <option value="207">207</option>
+
+       </select>
+
+       <select id="Condicion">
+    <option value="none">Elegir Condicion</option>
+    <option value="Nuevo">Nuevo</option>
+    <option value="Usado">Usado</option>
+       </select>
+
+       <select id="Combustible">
+        <option value="none">Elegir Combustible</option>
+        <option value="Diesel">Diesel</option>
+        <option value="GNC">GNC</option>
+        <option value="Hibrido">Hibrido</option>
+        <option value="Nafta">Nafta</option>
+       </select>
+
+       <select id="Transmision">
+        <option value="none">Elegir Transmision</option>
+        <option value="Automatica">Automatica</option>
+        <option value="Manual">Manual</option>
+       </select>
+    </form>
+
+
+
+    <footer>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Anuncios</a></li>
+            <li><a href="#">Planes</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Publica Gratis</a></li>
+            <li><a href="#">Iniciar sesion</a></li>
+
+        </ul>
+    </footer>
+
+<script src="app.js"></script>
 </body>
 </html>
