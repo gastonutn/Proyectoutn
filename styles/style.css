@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.productos {
+    margin: 30px 15px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.producto {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    width: 20%;
+    box-shadow: 5px 5px 5px 5px  #000000e3;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.producto:hover {
+    border: 3px solid #f1ededa8;
+}
+
+.botonn{
+    margin: 10px 0;
+    padding: 15px ;
+    border-radius: 2%;
+    cursor: pointer;
+    color: #404058;
+    border: none;
+}
+
+.botonn:hover {
+    border: 2px solid violet;
+}
+
