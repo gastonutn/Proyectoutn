@@ -32,3 +32,20 @@ li{
 .focus{
     color: black;
 }
+.footer {
+    padding: 20px;
+    color: #ffff;
+    background-color: black;
+}
+.redes{
+    margin-left: 20%;
+}
+.lista{
+    margin-left: 15%;
+}
+.list{
+    color:white
+}
+.derechos{
+    text-align: center;
+}

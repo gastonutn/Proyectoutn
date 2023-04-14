@@ -39,7 +39,67 @@ const TodosAutos= [
         condicion:"nuevo",
         precio:  5400000,
         imagen:"./styles/Productos/Partner.jpg"
-    }
+    },
+    {
+        id:5,
+        nombre:"Focus",
+        marca:"Ford",
+        descripcion:"Modelo 2020, excelente estado",
+        combustible:"Nafta",
+        condicion:"usado",
+        precio:  3800000,
+        imagen:"./styles/Productos/Focus.jpg"
+    },
+    {
+        id:6,
+        nombre:"207",
+        marca:"Peugeot",
+        descripcion:"Modelo 2017, unico dueño, full",
+        combustible:"Nafta",
+        condicion:"Usado",
+        precio:  2300000,
+        imagen:"./styles/Productos/207.jpg"
+    },
+    {
+        id:7,
+        nombre:"Megane",
+        marca:"Renault",
+        descripcion:"Modelo 2023, 0km",
+        combustible:"Diesel",
+        condicion:"Nuevo",
+        precio:  120000,
+        imagen:"./styles/Productos/Megane.jpg"
+    },
+    {
+        id:8,
+        nombre:"A5",
+        marca:"Audi",
+        descripcion:"Modelo 2022, impecable",
+        combustible:"Nafta",
+        condicion:"Usado",
+        precio:  6000000,
+        imagen:"./styles/Productos/A5.jpg"
+    },
+    {
+        id:9,
+        nombre:"Cruze",
+        marca:"Chevrolet",
+        descripcion:"Modelo 2020, poco uso, pequeños detalles",
+        combustible:"Nafta",
+        condicion:"Usado",
+        precio:  5500000,
+        imagen:"./styles/Productos/Cruze.jpg"
+    },
+    {
+        id:10,
+        nombre:"Gol",
+        marca:"wolsvagen",
+        descripcion:"Modelo 2016, escucho ofertas",
+        combustible:"Hibrido",
+        condicion:"Usado",
+        precio:  2000000,
+        imagen:"./styles/Productos/gol.png"
+    },
 
 ]
 
