@@ -7,7 +7,7 @@ const TodosAutos= [
         combustible:"Hibrido",
         condicion:"Usado",
         precio:  800000,
-        imagen:"./styles/Productos/Corsa.jpg"
+        imagen:"./styles/Productos/Corsa.jpg",
 
     },
     {
@@ -132,6 +132,12 @@ function addTocart(boton){
         let id=evento.target.id
        let busca= TodosAutos.find((elemento) => {return elemento.id==id} )
        console.log(busca)
-        alert("se agrego al carro")
+       Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Se agrego al carrito!',
+        showConfirmButton: false,
+        timer: 1500
+      })
     })
 }

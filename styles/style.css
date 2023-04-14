@@ -40,3 +40,37 @@
     border: 2px solid violet;
 }
 
+.footer {
+    padding: 20px;
+    color: #ffff;
+    background-color: black;
+}
+.redes{
+    margin-left: 15%;
+}
+.lista{
+    margin-left: 15%;
+}
+.list{
+    color:white
+}
+.derechos{
+    text-align: center;
+}
+.buscarAutos{
+    display: flex;
+    margin-top: 0;
+    
+    background-color: orange;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#marca{
+    padding:5px;
+    margin:5px;
+    border-radius: 2%;
+}
+#body{
+    background-color: #e9e5e0cd;
+}

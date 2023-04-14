@@ -1,0 +1,101 @@
+body{
+  background-image: url('./imagenes/contacto-fondo.jpg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.logo{
+    width: 150px;
+    height: 80px;
+}
+
+.publicar{ 
+    flex-direction:row;
+    float: right;
+    position: relative;
+    bottom: 40px;
+    padding-left: 990px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icon-car{
+    background-color: aliceblue;
+    margin-right: 5px; 
+    height: 26%;
+}
+
+
+.navbar{
+    flex-direction: row;
+     border: 2px solid aliceblue;
+     width: 100%;   
+     padding-left: 50px;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-family: 'Roboto Mono', monospace;
+    background-color: black;
+}
+
+.na{
+    text-decoration: none;
+    padding: 1%;
+    color: aliceblue;
+    
+}
+
+.nav-link{
+    margin: 0;
+}
+.nav-item{ 
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+
+.formulario{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+    width: 30%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textarea{
+    font-size: 15px;
+    color: darkslategray;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.btn-enviar{
+    color: #F5F5F5;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d4700c;
+    width: 20%;
+   margin-left: 170px;
+}
+
+
+
+ 
