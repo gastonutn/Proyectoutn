@@ -66,11 +66,22 @@
     align-items: center;
 }
 
-#marca{
-    padding:5px;
-    margin:5px;
-    border-radius: 2%;
+#FormAutos{
+    box-sizing: border-box;
+    align-items: center ;
+    height: 15px;
 }
 #body{
-    background-color: #e9e5e0cd;
+    background-color:#ffffff;
+}
+#TituloAuto{
+    background-color: orange;
+    text-align: center;
+}
+#primero{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    align-items: center ;
+    height: 15px;
+    text-align: center;
 }
