@@ -85,3 +85,20 @@
     height: 15px;
     text-align: center;
 }
+.TodosLosAutos{
+    text-align: center;
+    background-color: orange;
+}
+
+.FormPublicar{
+    background-color: rgba(255, 166, 0, 0.398);
+    color: white;
+    padding:3em;
+    align-items: center;
+   
+}
+
+#idform{
+    background-color: #c27e00;
+}
+

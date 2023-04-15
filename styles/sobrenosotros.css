@@ -1,10 +1,10 @@
 
 .contenedor{
-    display: flex;
+    display: grid;
     background-color: orange;
     margin: 0;
     padding: 0;
-    flex-wrap: wrap;
+    
 }
 
 .sobre{  
@@ -44,6 +44,23 @@
 #bruno{
     width: 50%;
 }
-.logoutn{
+.logoAr{
    width: 40%; 
+}
+.footer {
+    padding: 20px;
+    color: #ffff;
+    background-color: black;
+}
+.redes{
+    margin-left: 15%;
+}
+.lista{
+    margin-left: 15%;
+}
+.list{
+    color:white
+}
+.derechos{
+    text-align: center;
 }
