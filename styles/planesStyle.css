@@ -32,6 +32,32 @@ li{
 .focus{
     color: black;
 }
+.publicar{
+    margin-left: 400px;
+}
+@media (min-width: 320px) and (max-width:480px){
+
+    .publicar{
+        padding: 10px;
+        margin: 0;
+        margin-left: 170px;
+    }
+    .carousel-item{
+        margin: 0;
+    }
+    .c1o,.c2o{
+        margin: 0;
+        width: 100%;
+    }
+    h5, h4, h3, li{
+        margin: 0px;
+    
+    }
+
+    
+
+}
+
 .footer {
     padding: 20px;
     color: #ffff;

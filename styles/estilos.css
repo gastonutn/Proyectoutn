@@ -35,7 +35,7 @@
       width: 30%;
     }
   
-    /* Estilos para la sección de productos */
+   
     .productos {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -50,7 +50,7 @@
       overflow: auto;
     }
   
-    /* Estilos para el footer */
+    
     .footer {
       display: flex;
       flex-direction: column;
@@ -76,7 +76,7 @@
   
   /* Estilos para pantallas medianas */
   @media only screen and (max-width: 991px) {
-    /* Estilos para el encabezado */
+   
     .encabezado {
       display: flex;
       flex-direction: column;
@@ -94,7 +94,7 @@
       margin-bottom: 10px;
     }
   
-    /* Estilos para el formulario de autos */
+   
     #FormAutos {
       display: flex;
       flex-direction: column;
@@ -107,7 +107,7 @@
       width: 90%;
     }
   
-    /* Estilos para la sección de productos */
+    
     .productos {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -122,7 +122,7 @@
       overflow: auto;
     }
   
-    /* Estilos para el footer */
+   
     .footer {
       display: flex;
       flex-direction: column;

@@ -4,6 +4,7 @@
 }
 
 .productos {
+    width: 100%;
     margin: 30px 15px;
     padding: 0 15px;
     display: flex;
@@ -17,11 +18,23 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: auto;
-    width: 20%;
+    width: 300px;
     box-shadow: 5px 5px 5px 5px  #000000e3;
     padding: 10px;
     border-radius: 5%;
 }
+@media (min-width: 320px) and (max-width:480px){
+
+        .productos{
+            margin-top: 50px ;
+            margin-left: 2px;
+        }
+        #publik{
+            padding: 5px;
+            margin-left: 170px;
+        }
+}
+
 
 .producto:hover {
     border: 3px solid #f1ededa8;
