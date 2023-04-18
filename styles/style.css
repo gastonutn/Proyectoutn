@@ -92,13 +92,17 @@
 
 .FormPublicar{
     background-color: rgba(255, 166, 0, 0.398);
-    color: white;
+    color: rgb(0, 0, 0);
     padding:3em;
     align-items: center;
-   
+    text-align: left; 
+    font-size: 1.5em ;
+    border: 0.2em solid black ;
 }
 
 #idform{
     background-color: #c27e00;
+    text-align: center;
+    padding: 1em ;
 }
 
