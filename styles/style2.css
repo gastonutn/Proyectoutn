@@ -12,9 +12,7 @@
 
 .logo{
     width: 200px;
-    
     margin-left: 100px;
-
 }
 
 .publicar{ 
@@ -28,21 +26,42 @@
     font-family: Arial;
     letter-spacing: 2px;
     margin-left: 1350px;
-    margin-right: 150px;
+    margin-right: 180px;
     border: 2px solid orange;
 }
+
 .publicar:hover{
     box-shadow: grey;
     pointer-events: painted;
     color: orange;
 }
-.icon-car{
-    background-color: aliceblue;
-    margin-right: 5px; 
-    height: 26%;
+@media (min-width: 320px) and (max-width:480px){
+
+    .publicar{ 
+        flex-direction:row;
+        float: right;
+        position: relative;
+        bottom: 15px;
+        padding-left: 5px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        letter-spacing: 2px;
+        margin-left: 110px;
+        margin-right: 110px;
+        border: 2px solid orange;}
+    
+    .publicar:hover{
+        box-shadow: grey;
+        pointer-events: painted;
+        color: orange;}
+        .logo{
+            width: 200px;
+            margin-left: 80px;
+        }
+
+    
 }
-
-
 .navbar{
     flex-direction: row;
      border: 2px solid aliceblue;
@@ -58,6 +77,7 @@
     text-decoration: none;
     padding: 1%;
     color: aliceblue;
+    font-family: "wadik";
     
 }
 

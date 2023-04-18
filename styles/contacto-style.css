@@ -14,8 +14,8 @@ body{
 }
 
 .logo{
-    width: 150px;
-    height: 80px;
+    width: 200px;
+    margin-left: 100px;
 }
 
 .publicar{ 
@@ -112,6 +112,24 @@ body{
 .derechos{
     text-align: center;
 }
-
+.logo2{
+    flex-direction:row;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 2px;
+    margin-left: 1000px;
+    margin-right: 160px;
+    
+     
+}
+.logoimg{
+    width: 150px;
+    height: 150px;
+}
 
  

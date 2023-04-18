@@ -33,7 +33,18 @@ li{
     color: black;
 }
 .publicar{
-    margin-left: 400px;
+    flex-direction:row;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 2px;
+    margin-left: 1350px;
+    margin-right: 180px;
+    border: 2px solid orange;
 }
 @media (min-width: 320px) and (max-width:480px){
 

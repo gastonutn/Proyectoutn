@@ -1,6 +1,6 @@
 body{
     
-    background-image: url('./imagenes/imgInicioDeSesion.jpg');
+    background-image: url('./imagenes/contacto-fondo.jpg');
     background-size: cover;
 	background-attachment: fixed;
 }
@@ -19,7 +19,7 @@ body{
 
 #email, #contraseña, .btn-ingresar, .btn-registrate, .btn-olvidaste {
     border-color: black;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.471);
     color: aliceblue;
     padding: 5px;
     box-shadow: 10px 5px 5px black;
@@ -35,7 +35,7 @@ body{
     display: flex; 
     flex-direction: row; 
     align-items: center;
-    margin-left: 180px;
+    margin-left: 85px;
     margin-right: 25px;
      
 }

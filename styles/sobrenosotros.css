@@ -4,7 +4,8 @@
     background-color: orange;
     margin: 0;
     padding: 0;
-    
+    align-content: space-between;
+
 }
 
 .sobre{  
@@ -14,6 +15,9 @@
     background-color: orange;
     border-radius: 2%;
     text-align: justify;
+    margin-top: 50px;
+    margin-left: 50px;
+    
 }
 
 .sobre:hover{
@@ -21,51 +25,52 @@
 }
 
 .imgsn{
-
-    width: 80%;
+    margin: 10px ;
+    width: 250px;
     height: 200px ;
-    float: left;
-    border-radius: 30%;
+    border-radius: 15%;
 }
 .sobren{
-
     margin: 0;
-    padding: 0.2em ;
+    padding: 5px ;
     background-color: orange;
     text-align: center;
+    align-content: space-between;
 }
-#gaston{
-    width: 50%;
+
+.psobre{
+    margin-top: 5px ;
+    margin-left:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    width: 250px;
 }
-#gime{
-    width: 50%;
-}
-#fabri{
-    width: 50%;
-}
-#cintia{
-    width: 50%;
-}
-#bruno{
-    width: 50%;
-}
-.logoAr{
-   width: 40%; 
-}
-.footer {
-    padding: 20px;
-    color: #ffff;
-    background-color: black;
-}
-.redes{
-    margin-left: 15%;
-}
-.lista{
-    margin-left: 15%;
-}
-.list{
-    color:white
-}
+
+
 .derechos{
     text-align: center;
+}
+main{
+    background-color: orange;
+}
+@media (min-width:320px) and (max-width:480px){
+    .contenedor{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .sobren{
+        margin: 0;
+        padding: 0 ;
+        background-color: orange;
+          
+    }
+    .sobre{
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
 }

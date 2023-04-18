@@ -2,7 +2,19 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    font-family: 'wadik';
+    src: url('./fuentes/Wadik.otf');
+}
+h1{
+    font-family: "wadik";
+}
+h2{
+    font-family: "wadik";
+}
+h3{
+    font-family: "wadik";
+}
 .productos {
     width: 100%;
     margin-top: 15px;
@@ -31,16 +43,104 @@ main{
     padding: 0;
     background-color: orange;
 }
+.redes{
+    margin-left: 150px;
+}
+.footer {
+    padding: 20px;
+    color: #ffff;
+    background-color: black;
+}
+
+.lista{
+    margin-left: 100px;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    
+}
+.list{
+    color:white;
+    display: block;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+.logo2{
+    flex-direction:row;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 2px;
+    margin-left: 1000px;
+    margin-right: 160px;
+    
+     
+}
+.logoimg{
+    width: 150px;
+    height: 150px;
+}
 @media (min-width: 320px) and (max-width:480px){
 
         .productos{
             margin-top: 50px ;
             margin-left: 2px;
         }
-        #publik{
+        .footer {
             padding: 5px;
-            margin-left: 170px;
+            color: #ffff;
+            background-color: black;
         }
+        .redes{
+            margin: 30px;
+        }
+        .lista{
+            margin-left: 10px;
+            display: flex;
+            width: 150px;
+            flex-direction: column;
+            
+        }
+        .list{
+            width: 100px;
+            color:white;
+            display: block;}
+        .footerContainer{
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             margin: 5px;
+            }
+            .logo2{
+                flex-direction:row;
+                float: right;
+                position: relative;
+                bottom: 15px;
+                padding-left: 5px;
+                text-decoration: none;
+                color: white;
+                font-family: Arial;
+                letter-spacing: 2px;
+                margin-left: 50px;
+                margin-right: 30px;
+                
+                 
+            }
+            .logoimg{
+                width: 100px;
+                height: 100px;
+            }    
+
+        
+
 }
 
 
@@ -62,53 +162,13 @@ main{
     border: 4px solid black;
 }
 
-.footer {
-    padding: 20px;
-    color: #ffff;
-    background-color: black;
-}
-.redes{
-    margin-left: 150px;
-}
-.lista{
-    margin-left: 100px;
-    display: flex;
-    width: 200px;
-    flex-direction: column;
-    
-}
-.list{
-    color:white;
-    display: block;
-}
+
+
+
 .derechos{
-    text-align: center;
+    text-align: center; 
 }
-.logo2{
-    flex-direction:row;
-    float: right;
-    position: relative;
-    bottom: 50px;
-    padding-left: 10px;
-    text-decoration: none;
-    color: white;
-    font-family: Arial;
-    letter-spacing: 2px;
-    margin-left: 1000px;
-    margin-right: 160px;
-    
-     
-}
-.logoimg{
-    width: 150px;
-    height: 150px;
-}
-.footerContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px;
-}
+
 .buscarAutos{
     display: flex;
     margin-top: 0;

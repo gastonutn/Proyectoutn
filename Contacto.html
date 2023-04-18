@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="./styles/contacto-style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/style2.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
 <body>
     <header class="encabezado">
         <img class="logo" src="./styles/logo.svg" alt="logo de concesionaria">
-        <a class="publicar" href="./PublicarGratis.html"><img class="icon-car" src="./styles/icon-car.svg">Publica Gratis</a>
+        <a class="publicar" href="./PublicarGratis.html">Publica Gratis</a>
         <nav class="navbar">
             <a class="na" href="./index.html">INICIO</a>
             <a class="na" href="./vermas.html">ANUNCIOS</a>
@@ -29,7 +31,7 @@
     </header>
     <form class="formulario">
         <br>
-        <h3>Escribinos, un asesor se pondrá en contacto</h3>
+        <h3>Escribinos, un asesor se pondrá en contacto</h3><br>
          <label for="nombre">Nombre y Apellido:</label>
          <input type="text" id="nombre" name="nombre" required><br>
          <label for="nombre">Telefono:</label>
@@ -41,14 +43,16 @@
       </form>
       <footer class="footer">
         <h4 class="redes">Redes </h4>
-        <ul class="lista">
-            <li ><a class="list" target="_blank" href=https://www.facebook.com>Facebook</a></li>
-            <li ><a class="list" target="_blank" href=https://twitter.com/home?lang=es>Twitter</a></li>
-            <li ><a class="list" target="_blank" href=https://www.instagram.com>Instagram</a></li>
-            <li ><a class="list" target="_blank" href=https://www.tiktok.com/es>TikTok</a></li>
-            <li ><a class="list" href="./IniciarSesion.html">Iniciar sesion</a></li>
-
-        </ul>
+        <div class="footerContainer">
+            <ul class="lista">
+                <li ><a class="list" target="_blank" href=https://www.facebook.com>Facebook</a></li>
+                <li ><a class="list" target="_blank" href=https://twitter.com/home?lang=es>Twitter</a></li>
+                <li ><a class="list" target="_blank" href=https://www.instagram.com>Instagram</a></li>
+                <li ><a class="list" target="_blank" href=https://www.tiktok.com/es>TikTok</a></li>
+                <li ><a class="list" href="./IniciarSesion.html">Iniciar sesion</a></li>     
+            </ul>
+            <div class="logo2"><img src="./styles/logo.svg" alt="" class="logoimg"></div>
+        </div>
         <p class="derechos">Todos los derechos reservados</p>
     </footer>
 
