@@ -53,8 +53,7 @@ TodosAutos.forEach(function(elemento){
                      <h3>${elemento.nombre}</h3>
                      <p>${elemento.marca}</p>
                      <p>${elemento.descripcion}</p>
-                     <p>${elemento.precio}</p>
-                     <a href="./vermas.html">ver mas</a>
+                     <strong><p>$ ${elemento.precio}</p></strong>  
                      <button class="botonn" id=${elemento.id} >Añadir al carrito</button>
                       </div>
     `  

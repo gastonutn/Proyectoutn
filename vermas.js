@@ -108,15 +108,14 @@ const ContainerAutos=document.querySelector("#ContainerAutos")
 TodosAutos.forEach(function(elemento){
     console.log(elemento);
     ContainerAutos.innerHTML += `
-                     <div class="producto">
-                     <img src=${elemento.imagen} alt="producto">
-                     <h3>${elemento.nombre}</h3>
-                     <p>${elemento.marca}</p>
-                     <p>${elemento.descripcion}</p>
-                     <p>${elemento.precio}</p>
-                     <a href="./vermas.html">ver mas</a>
-                     <button class="botonn" id=${elemento.id} >Añadir al carrito</button>
-                      </div>
+                        <div class="producto">
+                          <img src=${elemento.imagen} alt="producto">
+                          <h3>${elemento.nombre}</h3>
+                          <p>${elemento.marca}</p>
+                          <p>${elemento.descripcion}</p>
+                          <strong><p>$ ${elemento.precio}</p></strong>
+                          <button class="botonn" id=${elemento.id} >Añadir al carrito</button>
+                        </div>
     `  
     
 })

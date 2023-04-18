@@ -7,26 +7,35 @@
     display: flex;
     flex-direction: column;
     background-color: black;
+    
 }
 
 .logo{
-    width: 150px;
-    height: 80px;
+    width: 200px;
+    
+    margin-left: 100px;
+
 }
 
 .publicar{ 
     flex-direction:row;
     float: right;
     position: relative;
-    bottom: 40px;
-    padding-left: 990px;
+    bottom: 60px;
+    padding-left: 10px;
     text-decoration: none;
-    color: aliceblue;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 2px;
+    margin-left: 1350px;
+    margin-right: 150px;
+    border: 2px solid orange;
 }
-
+.publicar:hover{
+    box-shadow: grey;
+    pointer-events: painted;
+    color: orange;
+}
 .icon-car{
     background-color: aliceblue;
     margin-right: 5px; 
