@@ -31,13 +31,6 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
-.icon-car{
-    background-color: aliceblue;
-    margin-right: 5px; 
-    height: 26%;
-}
-
-
 .navbar{
     flex-direction: row;
      border: 2px solid aliceblue;
@@ -52,8 +45,7 @@ body{
 .na{
     text-decoration: none;
     padding: 1%;
-    color: aliceblue;
-    
+    color: aliceblue;  
 }
 
 .nav-link{
@@ -64,7 +56,6 @@ body{
     width: 100%;
     margin: 0;
 }
-
 
 .formulario{
     font-family: 'Montserrat', sans-serif;
@@ -92,8 +83,8 @@ body{
     padding: 10px;
     border-radius: 10px;
     background-color: #d4700c;
-    width: 20%;
-   margin-left: 170px;
+    width: 100px;
+   margin-left: 410px;
 }
 .footer {
     padding: 20px;
@@ -131,5 +122,29 @@ body{
     width: 150px;
     height: 150px;
 }
+@media (min-width:320px) and (max-width:480px){
+    .formulario{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        color: aliceblue;
+        width: 250px;
+        margin: auto;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn-enviar{
+        color: #F5F5F5;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #d4700c;
+        width: 100px;
+       margin-left: 150px;
+    }
 
+
+}
  

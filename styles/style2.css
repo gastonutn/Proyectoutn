@@ -23,11 +23,13 @@
     padding-left: 10px;
     text-decoration: none;
     color: white;
-    font-family: Arial;
+    font-family: "arial black";
+    font-size: large;
     letter-spacing: 2px;
     margin-left: 1350px;
-    margin-right: 180px;
+    margin-right: 150px;
     border: 2px solid orange;
+    
 }
 
 .publicar:hover{
@@ -45,7 +47,8 @@
         padding-left: 5px;
         text-decoration: none;
         color: white;
-        font-family: Arial;
+        font-family: "Arial";
+        font-size: medium;
         letter-spacing: 2px;
         margin-left: 110px;
         margin-right: 110px;
