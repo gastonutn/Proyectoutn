@@ -8,6 +8,13 @@ body{
     font-family: 'garet';
     src: url('./fuentes/Garet-Book.otf');}
 
+#email, #contraseña, .btn-ingresar  {
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+    padding: 5px;
+    box-shadow: 10px 5px 5px black;
+}
 .formulario{
     color:aliceblue;
     display: flex; 
@@ -20,12 +27,18 @@ body{
 }
 
 #email, #contraseña, .btn-ingresar  {
-    border-color: black;
+    border-color:1px solid black;
     background-color: rgb(255, 255, 255);
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     padding: 5px;
     box-shadow: 10px 5px 5px black;
+
 }
+.btn-ingresar:hover,.btn-registrate:hover,.btn-olvidaste:hover  {
+    border: 5px solid orange;
+
+}
+
 
 .reg-olv{
     display: flex; 
@@ -39,6 +52,7 @@ body{
     align-items: center;
     margin-left: 85px;
     margin-right: 25px;
+    padding:5px;
      
 }
 

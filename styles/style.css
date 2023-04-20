@@ -191,7 +191,7 @@ main{
         margin: 30px;
     }
     .lista{
-        margin-left: 10px;
+        margin-left: 0px;
         display: flex;
         width: 150px;
         flex-direction: column;
