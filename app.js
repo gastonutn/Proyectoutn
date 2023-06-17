@@ -1,3 +1,15 @@
+const express = require("express")
+const app = express()
+const PORT= 3030
+const path= require("path")
+
+
+app.get("/",(req,res) => res.sendFile(path.join(__dirname,"index.html")))
+
+app.listen(PORT, () => console.log("servidor corriendo"))
+
+
+
 const TodosAutos= [
     {
         id:1,
@@ -43,40 +55,4 @@ const TodosAutos= [
 
 ]
 
-const ContainerAutos=document.querySelector("#ContainerAutos")
 
-TodosAutos.forEach(function(elemento){
-    console.log(elemento);
-    ContainerAutos.innerHTML += `
-                     <div class="producto">
-                     <img src=${elemento.imagen} alt="producto">
-                     <h3>${elemento.nombre}</h3>
-                     <p>${elemento.marca}</p>
-                     <p>${elemento.descripcion}</p>
-                     <strong><p>$ ${elemento.precio}</p></strong>  
-                     <button class="botonn" id=${elemento.id} >Añadir al carrito</button>
-                      </div>
-    `  
-    
-})
-
-let botones=document.querySelectorAll(`.botonn`)
-    botones.forEach(function(boton){
-        addTocart(boton)
-
-    })
-
-function addTocart(boton){
-    boton.addEventListener("click",function(evento){
-        let id=evento.target.id
-       let busca= TodosAutos.find((elemento) => {return elemento.id==id} )
-       console.log(busca)
-       Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Se agrego al carrito!',
-        showConfirmButton: false,
-        timer: 1500
-      })
-    })
-}
